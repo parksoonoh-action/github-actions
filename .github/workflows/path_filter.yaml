@@ -1,7 +1,7 @@
 name : path-filter
 on:
   push:
-    path: './github/workflows/part1/*'
+    paths: './github/workflows/part1/*'
 
 jobs:
   path-filter:
